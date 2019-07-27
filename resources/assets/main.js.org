@@ -1,0 +1,8 @@
+
+
+{
+    'use strict';
+    console.log("main.js");
+    console.log(Document.querySelector('input'));
+    Document.querySelector('input').textContent = "test";
+}

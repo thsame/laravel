@@ -15,8 +15,9 @@
   <?php
     if(isset($_POST['text'])){
       $post_text = $_POST['text'];
-      echo $post_text;
+      echo $post_text."は存在しません";
     }
   ?>
+
 </p>
 @endsection

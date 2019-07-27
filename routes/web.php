@@ -13,3 +13,4 @@
 
 Route::get('/','TestController@index')->name('test');
 Route::post('/','TestController@post',function(){})->name('test_post');
+Route::post('/BBS','TestController@new_post',function(){})->name('new_post_bbs');
