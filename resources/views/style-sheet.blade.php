@@ -27,4 +27,7 @@
      background-color: #fff;
      color: #000;
 }
+#map {
+  height: 600px;
+}
 </style>

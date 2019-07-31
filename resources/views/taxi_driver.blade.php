@@ -4,4 +4,12 @@
 
 <h1>taxi(予定)</h1>
 
+<div id="map"></div>
+<div>
+    <p id = "address"></p>
+</div>
+
+<script type = "text/javascript" src="js/position.js">
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?language=ja&region=JP&key=AIzaSyCi4DvEDn0W5WJ8Btna9XU3JZyLUWkl7c4&callback=get_position" async defer></script>
 @endsection
