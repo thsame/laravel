@@ -7,7 +7,7 @@
     @csrf
 
     <br>
-    <INPUT type = "text" id="text" Name = "text"></INPUT>
+    <INPUT type = "text" id="text" Name = "text">
     <Button type = "submit" class = "btn btn-primary">決　定</button>
   </FORM>
 
@@ -20,4 +20,25 @@
   ?>
 
 </p>
+
+
+
+  
+  
+<form method="POST"  name="form1" action="/">
+  @csrf
+  <input type="hidden" id = 'text' name='text' value='BBS'>
+  <a href="/" onClick="document.form1.submit(); return false;">BBS</a>
+</form>
+<form method="POST"  name="form2" action="/">
+    @csrf
+  <input type="hidden" id = 'text2' name='text' value='taxi'>
+  <a href="/" onClick="document.form2.submit(); return false;">Taxi</a>
+</form>
+<form method="POST"  name="form3" action="/">
+  @csrf
+  <input type="hidden" id = 'text3' name='text' value='address'>
+  <a href="/" onClick="document.form3.submit(); return false;">Address</a>
+</form>
+
 @endsection

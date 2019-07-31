@@ -22,6 +22,8 @@ class TestController extends Controller
       return view('BBS',['posts'=>$posts]);
     }elseif($_POST['text'] == 'taxi'){
       return view('taxi_driver');
+    }elseif($_POST['text'] == 'address'){
+      return view('address');
     }else{
       return view('test');
     }

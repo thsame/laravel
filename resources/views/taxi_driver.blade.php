@@ -11,5 +11,7 @@
 
 <script type = "text/javascript" src="js/position.js">
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?language=ja&region=JP&key=&callback=get_position" async defer></script>
+
+
+<script src="https://maps.googleapis.com/maps/api/js?language=ja&region=JP&key=<?= config('app.api_key') ?>&callback=get_position" async defer></script>
 @endsection

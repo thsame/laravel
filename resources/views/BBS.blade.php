@@ -17,13 +17,14 @@
     <form class = "form-group" action = "/BBS" method = "POST">
       @csrf
       <label type = "text" >名前</label>
-      <input type="text" id = 'text' name = "title" class="form-control"></input>
+      <input type="text" id = 'text' name = "title" class="form-control">
       <label type = 'texterea'>本文</label>
       <textarea name = "body" class="form-control"></textarea>
       <button type="submit" class="btn btn-primary">書き込み</button>
       <button type="button" id = "clear" class="btn btn-primary">Clear</button>
     <form>
   </div>
+
 
   <script type = "text/javascript" src="js/main.js">
   console.log("test1");
